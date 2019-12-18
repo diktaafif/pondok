@@ -13,16 +13,15 @@
         </div>
         <div class="row">
           <div class="col-sm-12 text-center">
-			<img class="img-thumbnail" style="width: 400px;height: 400px;" src="<?php echo base_url().'assets/uploads/berita/'.$berita[0]->gambar; ?>">			
+			     <img class="img-thumbnail" style="width: 400px;height: 400px;" src="<?php echo base_url().'assets/uploads/berita/'.$berita[0]->gambar; ?>">			
           </div>
         </div>
         <div class="row">
         	<div class="col-sm-12">
         		<?php echo $berita[0]->isi; ?>	
             <br>
-            <a href="">Tampilkan Map</a>
+            <a href="<?=site_url()?>/welcome/beritalocation/">Tampilkan Map</a>
         	</div>
-
         </div>	
       </div>
     </section>

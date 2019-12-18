@@ -72,4 +72,9 @@ class Welcome extends CI_Controller {
 		$this->load->view('berita/beritawis_view_lengkap',$data);
 		$this->load->view('footer');
 	}
+	public function beritalocation(){
+		$this->load->view('header_customer');
+		$this->load->view('berita/location');
+		$this->load->view('footer');	
+	}
 }
